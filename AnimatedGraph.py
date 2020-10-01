@@ -147,5 +147,5 @@ for x,y,text in zip(x_coords, y_coords, rides):
 curdoc().add_root(column(p, button))
 curdoc().add_periodic_callback(callback, refresh)
 
-#Bash Code to Run 
-#bokeh serve --show C:\Users\mthom\blog\AnimatedGraph\AnimatedGraph.py
+#Run with command line code:
+#bokeh serve --show AnimatedGraph.py
