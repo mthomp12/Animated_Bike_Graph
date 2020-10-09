@@ -18,7 +18,7 @@ from bokeh.models.glyphs import Text
 
 
 path = 'C:\\Users\\Name\\AnimatedGraph' #update with your working directory
-df = pd.read_csv('https://raw.githubusercontent.com/mthomp12/Animated_Divvy_Graph/master/divvy_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/mthomp12/Animated_Bike_Graph/master/bike_data.csv')
 
 df['circle_sizes'] = df['avg_trip_count'] / df['avg_trip_count'].max() * 40
 temps = df['temp'].unique().tolist()
